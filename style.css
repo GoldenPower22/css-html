@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  
+
+body {
+    background-color: azure;
+    color: black;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+
+    /* font: normal 16px "Roboto", sans-serif; */
+    
+     
+      
+/*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+color: rgba(104, 104, 101, 0.925);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+/* text-transform: uppercase; */
+/* letter-spacing: 5px; */
+/* word-spacing: 22; */
+}
+
+/* boxmodel */
+.container {max-width: 750px;
+    margin: auto;
+}
+/* .social {
+background: red;
+padding: 15px;
+margin: 10px;
+
+border: 5px solid rgb(255, 0, 140);
+border-bottom-style: dotted;
+border-top-width: 15px;
+border-right-color: aqua;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #fff9dc;
+}
+
+.bg-red {
+    background: #81c9cc;
+}
+
+.card {
+padding: 10px 10px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+   padding: 0 20px; 
+}
+
+.list li {
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+
+}
+
+.table td {
+   padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(175, 191, 211);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background: black;
+    padding: 15 px 20px;
+    color: aliceblue;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
